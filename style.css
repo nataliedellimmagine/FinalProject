@@ -1,0 +1,69 @@
+html{
+  background-color: azure;
+}
+
+.centerText{
+  text-align: center;
+    color: steelblue;
+}
+
+#aboutMe{
+    text-align: center;
+    color: darkblue;
+    font-family: "Georgia", serif;
+}
+
+
+#container{
+  margin-left: 32px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#projectText{
+   color: dodgerblue;
+}
+
+/* When you move the cursor over the button, it changes color */
+#projectText:hover{
+  cursor:  pointer;
+  color: lightcoral;
+}
+
+#techText{
+    color: dodgerblue;
+}
+
+#techText:hover{
+  cursor:  pointer;
+  color: lightcoral;
+}
+
+#projectList{
+  text-align: center;
+  margin-top: 12px;
+    color: darkslateblue;
+}
+
+#techList{
+  text-align: center;
+  margin-top: 12px;
+    color: darkslateblue;
+}
+
+.linkText{
+  color: cornflowerblue;
+}
+
+#image{
+    margin-left: 35px;
+    width: 150px;
+    height: 150px;
+}
+
+#image2{
+    margin-left: 35px;
+    width: 150px;
+    height: 150px;
+    transform: rotate(180deg);
+}
